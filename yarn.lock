@@ -2121,7 +2121,7 @@
   resolved "https://registry.npmjs.org/@medusajs/file/-/file-2.1.1.tgz"
   integrity sha512-Srt+Uh3ohxua8QDFidxiaOTII1ooMxwK2KoPiC6BE66EPiW0HKMNFVYlWnY0MYtspjJzKxGw1nvEbhL3qxtEIg==
 
-"@medusajs/framework@^2.0.0", "@medusajs/framework@2.1.1":
+"@medusajs/framework@^2.0.0":
   version "2.1.1"
   resolved "https://registry.npmjs.org/@medusajs/framework/-/framework-2.1.1.tgz"
   integrity sha512-E1B5OyrTyosC4EPT2vpSUhdbXk6aBHOnRFRq7cvEO4wvV9mIMc4SvT0TFJ15ZsjQ+BO60QCoG583k0SlEbywpA==
@@ -2201,7 +2201,7 @@
   resolved "https://registry.npmjs.org/@medusajs/locking/-/locking-2.1.1.tgz"
   integrity sha512-c1cFpveIK9RK1xexI9rjW93gdTUMc2cpeSbYPrJODFtN5hvQrMkfnvouQmWamhoK8roddNUwrXVIi0G0HktQUA==
 
-"@medusajs/medusa@^2.0.0", "@medusajs/medusa@2.1.1":
+"@medusajs/medusa@^2.0.0":
   version "2.1.1"
   resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-2.1.1.tgz"
   integrity sha512-woq4bEByKNwdgPmI1fWSL56jxbYdv8cKEc0YC2RAWy6kg832dFXKhEFy+5KSUdipi2cR3m2OBi/Dv91C0hKiNg==

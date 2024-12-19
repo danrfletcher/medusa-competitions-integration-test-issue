@@ -110,23 +110,14 @@
           "nullable": false,
           "mappedType": "text"
         },
-        "product_id": {
-          "name": "product_id",
+        "product_variant_id": {
+          "name": "product_variant_id",
           "type": "text",
           "unsigned": false,
           "autoincrement": false,
           "primary": false,
           "nullable": false,
           "mappedType": "text"
-        },
-        "product_variant_ids": {
-          "name": "product_variant_ids",
-          "type": "text[]",
-          "unsigned": false,
-          "autoincrement": false,
-          "primary": false,
-          "nullable": true,
-          "mappedType": "array"
         },
         "map_coordinates": {
           "name": "map_coordinates",
