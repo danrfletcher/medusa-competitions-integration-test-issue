@@ -70,6 +70,14 @@
       "schema": "public",
       "indexes": [
         {
+          "keyName": "IDX_geoguesser_guess_order_item_id_unique",
+          "columnNames": [],
+          "composite": false,
+          "primary": false,
+          "unique": false,
+          "expression": "CREATE UNIQUE INDEX IF NOT EXISTS \"IDX_geoguesser_guess_order_item_id_unique\" ON \"geoguesser_guess\" (order_item_id) WHERE deleted_at IS NULL"
+        },
+        {
           "keyName": "IDX_geoguesser_guess_deleted_at",
           "columnNames": [],
           "composite": false,
@@ -164,6 +172,14 @@
       "name": "geoguesser_image",
       "schema": "public",
       "indexes": [
+        {
+          "keyName": "IDX_geoguesser_image_product_variant_id_unique",
+          "columnNames": [],
+          "composite": false,
+          "primary": false,
+          "unique": false,
+          "expression": "CREATE UNIQUE INDEX IF NOT EXISTS \"IDX_geoguesser_image_product_variant_id_unique\" ON \"geoguesser_image\" (product_variant_id) WHERE deleted_at IS NULL"
+        },
         {
           "keyName": "IDX_geoguesser_image_deleted_at",
           "columnNames": [],
