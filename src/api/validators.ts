@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const CreateGeoguesserImagesSchema = z.object({
+export const GeoguesserImagesSchema = z.object({
   image_id: z.string(),
   map_coordinates: z.string(),
 });
